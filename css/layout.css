@@ -9,8 +9,8 @@ body{
 .menu{
   flex-grow: 1;
 }
-/*r= rectalugo*/
-.r{
+
+.cuadrado{
 padding: 50px;
 height: 150px;
 display: flex;
