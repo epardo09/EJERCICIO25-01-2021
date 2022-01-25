@@ -24,6 +24,7 @@ a{
 /*menu*/
 .menu{
     flex-grow: 1;
+    display: flex;
 }
 
 .separacion{
