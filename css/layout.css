@@ -10,7 +10,7 @@ body{
   flex-grow: 1;
 }
 
-.retangulo{
+.cuadrado{
 padding: 50px;
 height: 150px;
 display: flex;
