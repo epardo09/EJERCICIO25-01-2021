@@ -1,4 +1,45 @@
 /* CSS LAYOUT */
 /* **************************************************************** */
 
+body{
+    display: flex;
+    flex-direction: row;
+    padding: 0 0;
+    margin:0 0;
+}
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.cuadrado {
+  padding: 50px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu{
+    flex-grow: 1;
+}
+
+.separacion{
+    flex-grow: 2;
+}
+
+.rojo {
+  background-color: rgba(255, 0, 0, 0.89);
+}
+
+.verde {
+  background-color: rgba(0, 128, 0, 0.877);
+  flex-grow: 1;
+}
+
+.azul {
+  background-color: blue;
+  flex-grow: 2;
+}
